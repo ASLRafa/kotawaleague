@@ -2,10 +2,10 @@ import logo from "./logo.png";
 
 function Nav() {
   return (
-    <div className="flex-auto flex-row justify-between bg-green-400">
-      <img src={logo} alt="" className="w-1/4 " />
+    <div className="flex flex-row justify-between bg-green-400 items-center	">
+      <img src={logo} alt="" className="min-w-10 max-w-32 -m-4" />
       <nav>
-        <ul>
+        <ul className="items-center flex flex-row">
           <li>Home</li>
           <li>About</li>
           <li>Contact</li>
